@@ -1,6 +1,6 @@
 # Final-Project
-Data being used from the Yelp Dataset Challenge: http://www.yelp.com/dataset`_`challenge
-To minimize size of repo, pull data from yelp and convert to csv using json`_`to`_`csv`_`converter.py
+`Data being used from the Yelp Dataset Challenge: http://www.yelp.com/dataset_challenge
+`To minimize size of repo, pull data from yelp and convert to csv using json_to_csv_converter.py
 
 ##1. Specific Aim:
 ###    - Datasource: Yelp data from Yelp Dataset Chalelnge Round 6.
@@ -26,3 +26,33 @@ To minimize size of repo, pull data from yelp and convert to csv using json`_`to
 ##6. Where you need help
 ###    - Natural Language Processing
 ###    - Formatting / cleaning data
+
+1.	Specific Aim
+    a.	Datasource: Yelp data from Yelp Dataset Challenge Round 6.
+    b.	Size: 1.6M reviews, 61K businesses, 10 cities
+    c.	Timeframe: 2004 – 2015
+    d.	Goal: Create a model that predicts how many stars a restaurant review has based on the review text.
+2.	Methods
+    a.	Outcome: Predict how many stars a review gives a restaurant	
+    b.	Predictors/covariants
+        i.	Phrases / words in review
+        ii.	Location
+    c.	Algorithms under consideration
+        i.	Word2Vec, Doc2Vec, NLTK Library
+        ii.	Logistic Regression
+        iii.	Classification Tree (decision tree)
+        iv.	Random Forests (?)
+3.	Result
+    a.	Given a specific review text, we can predict how many stars the reviewer gave the restaurant.
+4.	Limitations / Assumptions of your data
+    a.	People generally use the same language, in particular across different locations.
+    b.	People are thoughtful and rational when writing reviews and rating restaurants, meaning there is a correlation between text sentiment and star-ratings.
+5.	Expected hurdles
+    a.	Working with large dataset
+    b.	Pre-processing data
+6.	Where you need help
+    a.	Natural Language Processing
+    b.	Cleaning & formatting data
+7.	Repeat for secondary hypothesis
+    a.	If first pass goes well, the second test will be to split reviews by region and see if there are differences in positive/negative language between different cities.
+
