@@ -1,12 +1,10 @@
 # Final-Project
-`Data being used from the Yelp Dataset Challenge: http://www.yelp.com/dataset_challenge
-
-`To minimize size of repo, pull data from yelp and convert to csv using json_to_csv_converter.py
-
-`Other data in \data folder can be found in comments of the code
+Data being used from the Yelp Dataset Challenge: http://www.yelp.com/dataset\_challenge
+To minimize size of repo, pull data from yelp and convert to csv using json\_to\_csv\_converter.py
+Other data in \data folder can be found in comments of the code
 
 ##1. Specific Aim:
-#####    - Datasource: Yelp data from Yelp Dataset Chalelnge Round 6.
+#####    - Datasource: Yelp data from Yelp Dataset Challenge Round 6.
 #####    - Size: 1.6M Reviews, 61K businesses, 10 different cities, over past 11 years.
 #####    - Goal: Create a model that predicts how many stars a review for a restaursnt is based on the review text. (If necessary, group 1-3 stars and 4-5 stars for "bad" and "good" ratings).
 ##2. Methods:
