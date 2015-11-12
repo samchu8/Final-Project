@@ -1,7 +1,7 @@
 # Final-Project
 Data being used from the Yelp Dataset Challenge: http://www.yelp.com/dataset\_challenge
 To minimize size of repo, pull data from yelp and convert to csv using json\_to\_csv\_converter.py
-Other data in \data folder can be found in comments of the code
+Other data in \data folder can be found in comments of the code 
 
 ##1. Specific Aim:
 #####    - Datasource: Yelp data from Yelp Dataset Challenge Round 6.
