@@ -1,4 +1,6 @@
 # Final-Project
+This repository was submitted as a final project for a Data Science course at General Assembly. The below was the initial project plan and overview; a more detailed write-up can be found in the "Final Poject Paper" doc.
+
 Data being used from the Yelp Dataset Challenge: http://www.yelp.com/dataset_challenge
 To minimize size of repo, pull data from yelp and convert to csv using json\_to\_csv\_converter.py
 Other data in \data folder can be found in comments of the code 
